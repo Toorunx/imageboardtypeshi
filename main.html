@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Good morning champ</title>
+  <style>
+    .button-50 {
+        appearance: button;
+        background-color: #000;
+        background-image: none;
+        border: 1px solid #000;
+        border-radius: 4px;
+        box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0 5px 10px 0;
+        overflow: visible;
+        padding: 12px 40px;
+        text-align: center;
+        text-transform: none;
+        touch-action: manipulation;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        }
+
+    .button-50:focus {
+        text-decoration: none;
+    }
+
+    .button-50:hover {
+        text-decoration: none;
+    }  
+
+    .button-50:active {
+        box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+        outline: 0;
+    }
+
+    .button-50:not([disabled]):active {
+        box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+        transform: translate(2px, 2px);
+    }
+
+    @media (min-width: 768px) {
+        .button-50 {
+            padding: 12px 50px;
+        }
+    }
+
+    body {
+      background: #f4f4f4;
+      font-family: sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="card">
+    <img src="./pic1.png" alt="Inspiration 1">
+    <div class="caption">
+        <button onclick="window.open('./pic1.png')" class="button-50" role="button">Open</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./pic2.png" alt="Inspiration 1">
+    <div class="caption">
+        <button onclick="window.open('./pic2.png')" class="button-50" role="button">Open</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./pic3.png" alt="Inspiration 2">
+    <div class="caption">
+        <button onclick="window.open('./pic3.png')" class="button-50" role="button">Open</button>
+    </div>
+  </div>
+  <body>
+  <div class="card">
+    <img src="./pic4.png" alt="Inspiration 1">
+    <div class="caption">
+        <button onclick="window.open('./pic4.png')" class="button-50" role="button">Open</button>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
